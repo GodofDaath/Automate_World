@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
-
-class Rectangle
-{
+class Rectangle{
 public:
 	int length; // Data members // only data member will occupy memory fxn will not occupy any memory
 	int breadth;
@@ -14,9 +12,7 @@ public:
 		return 2 * (length + breadth);
 	}
 };
-
-void main()
-{
+void main(){
 	Rectangle r1, r2; // total it is going to take 4 bytes (2 for length and 2 for breadth)// here we created two objects for rec class 
 	r1.length = 10; // dot operator is used to access data member of the class 
 	r1.breadth = 5;
